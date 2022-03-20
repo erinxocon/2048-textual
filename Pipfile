@@ -4,8 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-textual = {ref = "css", git = "https://github.com/Textualize/textual.git"}
+textual = {ref = "main", git = "https://github.com/Textualize/textual.git"}
 numpy = "*"
+pyfiglet = "*"
 
 [dev-packages]
 ipython = "*"
